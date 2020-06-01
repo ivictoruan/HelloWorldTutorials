@@ -1,25 +1,25 @@
 .page-header {
-    background-color: rgb(34, 34, 27);
+    background-color: #5504f4;
     margin-top: 0;
-    padding: 20px 20px 20px 40px;
+    padding: 200px 20px 20px 40px;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #533030;
+    color: rgb(255, 234, 255);
     font-size: 36pt;
     text-decoration: none;
-}
+}o
 
 .content {
     margin-left: 40px;
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Patua+One', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 .date {
-    color: #828282;
+    color: rgb(212, 195, 249);
 }
 
 .save {
@@ -31,14 +31,14 @@ h1, h2, h3, h4 {
 }
 
 .top-menu, .top-menu:hover, .top-menu:visited {
-    color: #65796b00;
+    color: rgb(209, 31, 85);
     float: right;
     font-size: 26pt;
     margin-right: 20px;
 }
 
 .post {
-    margin-bottom: 70px;
+    margin-bottom: 350px;
 }
 
 .post h2 a, .post h2 a:visited {
