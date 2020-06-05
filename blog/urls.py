@@ -5,4 +5,5 @@ from django.conf import settings
 
 urlpatterns = [
     path('', views.post_list, name='post_list'),
-] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+    path('post/<int:pk>/', views.post_detail, name='post_detail'),
+]
